@@ -1,0 +1,77 @@
+.unorderedlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    border-bottom: solid 1px #555555;
+}
+
+.mainbody {
+    top: 80px;
+    bottom: 64 px;
+    right: 5px;
+    left: 5px;
+}
+
+.footer {
+    bottom: 5px;
+    height: 50px;
+    left: 5px;
+    right: 5px;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    position: fixed;
+}
+
+.common {
+  /* background-color: whitesmoke;
+  border: solid 2px black; */
+  position: absolute;
+}
+
+.center {
+  text-align: center;
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.TableauBG {
+  background-image: url('../images/Tableau2.webp')
+}
+
+.center-graphic {
+  margin: auto;
+  max-width: 1000px;
+}
+
+.explanation {
+  text-align: center;
+  font-size: 15px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #555555;
+}
